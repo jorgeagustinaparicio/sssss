@@ -27,6 +27,13 @@ public LoginFrame() {
 				frame.setVisible(true);
 			}
 		});
+		btnLogin.setBounds(115, 83, 100, 23);
+		contentPane.add(btnLogin);
+		
+		public void falopiadaMasiva() {
+			
+			
+		}
 	}
 
 public void sumarPares() {
