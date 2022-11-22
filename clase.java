@@ -18,11 +18,6 @@ public LoginFrame() {
 		lblPassword.setBounds(10, 36, 98, 14);
 		contentPane.add(lblPassword);
 
-		txtPassword = new JPasswordField();
-		txtPassword.setBounds(129, 33, 104, 20);
-		contentPane.add(txtPassword);
-		txtPassword.setColumns(10);
-
 		JButton btnLogin = new JButton("Ingresar");
 		btnLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
@@ -32,6 +27,4 @@ public LoginFrame() {
 				frame.setVisible(true);
 			}
 		});
-		btnLogin.setBounds(115, 83, 100, 23);
-		contentPane.add(btnLogin);
 	}
