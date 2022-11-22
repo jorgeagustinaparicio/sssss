@@ -28,3 +28,7 @@ public LoginFrame() {
 			}
 		});
 	}
+
+public void sumarPares() {
+	//wea wea wea wea
+}
