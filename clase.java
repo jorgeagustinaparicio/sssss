@@ -34,4 +34,9 @@ public LoginFrame() {
 		});
 		btnLogin.setBounds(115, 83, 100, 23);
 		contentPane.add(btnLogin);
+		
+		public void falopiadaMasiva() {
+			
+			
+		}
 	}
