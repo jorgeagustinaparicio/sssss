@@ -10,16 +10,11 @@ public LoginFrame() {
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 
-		JLabel lblNombre = new JLabel("Usuario");
+		JLabel lblNombre = new JLabel("Username");
 		lblNombre.setBounds(10, 8, 70, 14);
 		contentPane.add(lblNombre);
 
-		txtUsuario = new JTextField();
-		txtUsuario.setBounds(129, 5, 104, 20);
-		contentPane.add(txtUsuario);
-		txtUsuario.setColumns(10);
-
-		JLabel lblPassword = new JLabel("Password");
+		JLabel lblPassword = new JLabel("Contra");
 		lblPassword.setBounds(10, 36, 98, 14);
 		contentPane.add(lblPassword);
 
